@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.koisuru.hitorisearchforlove.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tlo"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="ffsfsfsf"
+            android:lines="6"
+            android:visibility="invisible"
+
+            android:id="@+id/dialog"
+
+
+
+            />
+    </ScrollView>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bish"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:id="@+id/bish2"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/avatar"
+        android:layout_above="@+id/hitori"
+        android:src="@drawable/hitor"
+
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="HITORI"
+        android:id="@+id/hitori"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/avatar"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:id="@+id/przy"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/przyc"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/przyci"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            /></LinearLayout>
+
+
+
+
+</RelativeLayout>
+

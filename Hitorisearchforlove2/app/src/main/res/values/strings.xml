@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hitori search for love</string>
+    <string name="kropka">[POKAŻ ILUSTRACJE]</string>
+    <string name="prolog">Hmm. Gustaw chyba czas wejść do tej jaskini. </string>
+    <string name="gus1">Czas i tak czyś jak sie nie odwlecze. Masz jakiś inny plan?</string>
+    <string name="opcja1">Nie, ale czuje, że coś złego sie stanie. </string>
+    <string name="opcja2"> Tam, może być niebezpiecznie, puśćmy najpierw Pszemka by sprawdził co sie tam dzieje. </string>
+    <string name="opcja3">Nie, mam. No to w droge. </string>
+
+</resources>
