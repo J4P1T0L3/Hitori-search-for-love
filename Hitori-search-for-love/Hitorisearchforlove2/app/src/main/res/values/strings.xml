@@ -1,10 +1,54 @@
 <resources>
-    <string name="app_name">Hitori search for love</string>
+    <string name="app_name">Hitori search for love demo</string>
     <string name="kropka">[POKAŻ ILUSTRACJE]</string>
-    <string name="prolog">Hmm. Gustaw chyba czas wejść do tej jaskini. </string>
-    <string name="gus1">Czas i tak czyś jak sie nie odwlecze. Masz jakiś inny plan?</string>
-    <string name="opcja1">Nie, ale czuje, że coś złego sie stanie. </string>
-    <string name="opcja2"> Tam, może być niebezpiecznie, puśćmy najpierw Pszemka by sprawdził co sie tam dzieje. </string>
+    <string name="prolog">Hmm, Gustaw chyba czas wejść do tej jaskini. </string>
+    <string name="gus1">Czas się nie odwlecze. Masz jakiś inny pomysł?</string>
+    <string name="opcja1">Nie, ale czuję, że coś złego sie stanie w jaskini. </string>
+    <string name="opcja2"> Tam może być niebezpiecznie, puśćmy najpierw Pszemka na próbę. </string>
     <string name="opcja3">Nie, mam. No to w droge. </string>
+    <string name="gus2">*podchodzi do mnie i wtula mnie w swoją klatke piersiową jednocześnie głaskając po głowie, po chwili cicho niskim głosem szepcze mi do ucha* Spokojnie nic ci nie będzie.
+    </string>
+    <string name="gus3"> Masz racje, w sumie jest to jaskinia nazistów. Bardzo możliwe, że jak tam wejdziemy może się uruchomić jakiś mechanizm z trującym gazem. PSZEMEK! Choć tu do mnie!
 
+    </string>
+    <string name="gus4">Nie ty mały bezmuzgi jełopie! Scheiße z kim ja pracuję -.- Słuchaj ty mały kurwiu, bo powiem to tylko raz i nie powtórzę więcej. Masz wejść do tamtej jaskini, rozejrzeć się i wrócić tu do nas.
+
+    </string>
+    <string name="pszemek1"> Wołałeś mnie kochaniutki? ❤️Ahhh Może w końcu chcesz się ze mną zabawić? ❤️❤️❤️❤️
+
+    </string>
+    <string name="pszemek2"> Oj no nie zlość sie seksiaczku ❤️ bo ci się jeszcze zmarszczki zrobią na twojej pięknej buzi ❤ już ide poszukać sexzabawek lub jakiegoś miejsca na małe bara-bara w tej jaskini ❤️❤️️
+
+    </string>
+    <string name="gus5"> Ja z nim nie wytrzymam -.- trzymaj mnie bo zaraz mu pizgne i nawet Miron mnie nie powstrzyma..</string>
+<string name="czekaj">[Przysłuchujesz sie rozmowie]</string>
+    <string name="opcja4"> Spokojnie Gustaw, widzisz już sobie poszedł. </string>
+    <string name="gus7">Jak ty mnie nazwałeś!!! Du weißt nicht wie deine Schurken entsetzt waren..</string>
+    <string name="opcja5">Gustaw nie zniżaj sie do jego poziomu, dziękuje.</string>
+    <string name="gus6">*klepiesz Gustawa po ramieniu*</string>
+    <string name="gus8">Masz racje. No to wchodzimy!</string>
+    <string name="gus9">( ͡° ͜ʖ ͡°)</string>
+    <string name="hans">Hat jemand auf Hitori geklickt?</string>
+    <string name="hans2"> Wen wirst du heute machen?</string>
+    <string name="hans3">So genau wie ich?</string>
+    <string name="hans4">Wer nimmt Titten auf?</string>
+    <string name="hans5">Wer fickt bei Tag?</string>
+    <string name="hans6">Sehr willig.</string>
+    <string name="hans7">Mein Name ist Hans JuderFreunde, und du Verbündeter?</string>
+    <string name="hans8"> Ich ficke Hitori. Möchten Sie mitmachen?</string>
+    <string name="gusnazi">Wer bist du?
+    </string>
+    <string name="hitor8">Gustaw o czym wy rozmawiacie?</string>
+    <string name="hitor9">Gustaw umiesz sie z nim dogadać?</string>
+    <string name="gusnazi2">Ich bin Gustaw,was wirst du tun?</string>
+    <string name="nazihitor">Co! Kim ty jesteś nie znam cie!</string>
+    <string name="nazihitor2">Co ty spiewasz?</string>
+    <string name="nazihitor3">Gustaw pomóż! przetłumacz mi to!</string>
+    <string name="nazihitor4">Pierdol sie hans</string>
+    <string name="nazihitor5"> NIE PODCHODZ!!! NIEEE! [Pokaż ilustracje]</string>
+    <string name="nazihitor6">ZOSTAWCIE MNIE!! [Pokaż ilustracje]</string>
+    <string name="nazihitor7">SKĄD ZNASZ MOJE IMIE?</string>
+
+    <string name="czekaj2">[Poczekaj chwile.]</string>
+    <string name="pszemek30">Już jestem Gusgusiu ❤ w jaskini nie znalazłem nic oprócz tej wazeliny! Cóż już nie trzeba będzie popieścić by sie zmieścić ❤❤❤❤ </string>
 </resources>

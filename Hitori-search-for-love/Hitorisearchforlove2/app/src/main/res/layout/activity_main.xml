@@ -3,37 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.koisuru.hitorisearchforlove.MainActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/tlo"/>
+    tools:context="pl.koisuru.hitorisearchforlove.MainActivity"
+    android:background="@drawable/tlo">
 
-    </LinearLayout>
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        >
+
+
+
+
         <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="175dp"
+            android:layout_marginTop="50dp"
             android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:minLines="6"
             android:text="ffsfsfsf"
-            android:lines="6"
             android:visibility="invisible"
+            android:gravity="center"
+            android:background="@android:drawable/dialog_holo_light_frame"
 
             android:id="@+id/dialog"
 
 
 
             />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="175dp"
+
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="ffsfsfsf"
+            android:minLines="6"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:background="@android:drawable/dialog_holo_light_frame"
+
+            android:id="@+id/dialog2"
+
+
+
+            />
     </ScrollView>
+
 
 
     <ImageView
@@ -53,54 +72,65 @@
         android:layout_marginTop="20dp"
         android:visibility="invisible"
         android:id="@+id/bish2"/>
-
-
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="135dp"
+        android:text="HITORI"
+        android:id="@+id/hitori"
+        android:gravity="bottom|center"
+        android:textSize="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:backgroundTint="#ecebeb"
+        />
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/avatar"
-        android:layout_above="@+id/hitori"
+        android:layout_alignBottom="@+id/hitori"
         android:src="@drawable/hitor"
-
-
+        android:layout_marginBottom="30dp"
         />
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:text="HITORI"
-        android:id="@+id/hitori"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="5dp"
-        />
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="115dp"
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/avatar"
+        android:layout_toEndOf="@+id/hitori"
 
         >
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:visibility="invisible"
+            android:gravity="center"
             android:id="@+id/przy"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="#ecebeb"
             />
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/przyc"
             android:layout_weight="1"
             android:visibility="invisible"
+            android:gravity="center"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="#ecebeb"
             />
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/przyci"
             android:layout_weight="1"
             android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="#ecebeb"
             /></LinearLayout>
 
 
